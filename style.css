@@ -56,9 +56,10 @@ body {
     justify-content: space-between;
   }  
     
-  /*article {
+  article {
         flex: 2;
-    }*/
+    }
+
 /* The footer rule uses Flexbox to center its content both horizontally and vertically */
 footer {
     display: flex;
