@@ -10,27 +10,29 @@ body {
  
   header {
     height: 100px;
-  }
- 
-  h1 {
     background: purple;
-    height: 100px;
     text-align: center;
     color: white;
-    line-height: 100px;
   }
- 
-  section {
-    zoom: 0.8;
-  }
- 
+  
   article {
     padding: 10px;
     margin: 10px;
     background: aqua;
   }
+
+  footer {
+    height: 30px;
+    background: purple;
+  }
+ 
+  footer p {
+    color: white;
+    margin: 0;
+  }
   /* Add your flexbox CSS below here */
   
+  /* The nav rule uses Flexbox to create a horizontal navigation bar with evenly spaced items */
   nav {
     display: flex;
     flex-direction: row;
@@ -38,34 +40,32 @@ body {
     align-items: center;
     height: 30px;
   }
- 
+  /* Center the content inside the header using Flexbox */
   header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    background: purple;
+    
   }
   
+  
   section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }  
-    article {
-        flex: 2
-    }
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }  
+    
+  /*article {
+        flex: 2;
+    }*/
+/* The footer rule uses Flexbox to center its content both horizontally and vertically */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    background: purple;
-  }
-  footer p {
-    color: white;
-    margin: 0;
-  }
+    }
+    
+
+  
  
