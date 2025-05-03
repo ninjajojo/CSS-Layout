@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  button {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+ 
+  header {
+    height: 100px;
+  }
+ 
+  h1 {
+    background: purple;
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+  }
+ 
+  section {
+    zoom: 0.8;
+  }
+ 
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+  }
+  /* Add your flexbox CSS below here */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+  }
+ 
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: purple;
+  }
+  
+  section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }  
+    article {
+        flex: 2
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background: purple;
+  }
+  footer p {
+    color: white;
+    margin: 0;
+  }
+ 
